@@ -6,4 +6,4 @@ yum install libsodium -y
 echo "alias startss='ssserver -c ~/ss.json -d start'" >> ~/.bash_profile
 echo "alias stopss='ssserver -c ~/ss.json -d stop'" >> ~/.bash_profile
 source ~/.bash_profile
-curl https://raw.githubusercontent.com/KarnLZM/ss/master/ss.json?token=Ami0xlgYMAKcjLiojVeEhy6tXMwb7aReks5bOHZOwA%3D%3D --output ~/ss.json
+curl https://raw.githubusercontent.com/KarnLZM/ss/master/ss.json?token=Ami0xusZxm9zs3VlJ7KYLvy2GdOxDPVOks5bOHdfwA%3D%3D --output ~/ss.json
