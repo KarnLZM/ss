@@ -1,0 +1,20 @@
+{
+    "server":"0.0.0.0",
+    "local_address":"127.0.0.1",
+    "local_port":1080,
+    "port_password":{
+         "8381":"KarnServerPort8381",
+         "8382":"KarnServerPort8382",
+         "8383":"KarnServerPort8383",
+         "8384":"KarnServerPort8384",
+         "8385":"KarnServerPort8385",
+         "8386":"KarnServerPort8386",
+         "8387":"KarnServerPort8387",
+         "8388":"KarnServerPort8388",
+         "8389":"KarnServerPort8389",
+         "8390":"KarnServerPWD8390",
+    },
+    "timeout":300,
+    "method":"aes-256-cfb",
+    "fast_open": false
+}
