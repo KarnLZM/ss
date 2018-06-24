@@ -12,7 +12,7 @@
          "8387":"KarnServerPort8387",
          "8388":"KarnServerPort8388",
          "8389":"KarnServerPort8389",
-         "8390":"KarnServerPWD8390",
+         "8390":"KarnServerPWD8390"
     },
     "timeout":300,
     "method":"aes-256-cfb",
