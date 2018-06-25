@@ -1,20 +1,20 @@
 {
-    "server":"0.0.0.0",
-    "local_address":"127.0.0.1",
-    "local_port":1080,
-    "port_password":{
-         "8381":"KarnServerPort8381",
-         "8382":"KarnServerPort8382",
-         "8383":"KarnServerPort8383",
-         "8384":"KarnServerPort8384",
-         "8385":"KarnServerPort8385",
-         "8386":"KarnServerPort8386",
-         "8387":"KarnServerPort8387",
-         "8388":"KarnServerPort8388",
-         "8389":"KarnServerPort8389",
-         "8390":"KarnServerPWD8390"
-    },
-    "timeout":300,
-    "method":"aes-256-cfb",
-    "fast_open": false
+    "server": "0.0.0.0",
+    "local_address": "127.0.0.1",
+    "local_port": 1080,
+    "timeout": 300,
+    "method": "chacha20-ietf-poly1305",
+    "fast_open": false,
+    "port_password": {
+        "60000": "8#U0*)gtdc",
+        "60001": "brX!,*f<UB",
+        "60002": "nE,!v#6%8H",
+        "60003": "!=3xC8LGrz",
+        "60004": "%c^QLl!>f$",
+        "60005": "WarVmy&ij+",
+        "60006": "h>9hN&H+bD",
+        "60007": "jsqm1g#gg0",
+        "60008": "%JR_Z1zldi",
+        "60009": "oPTq(Omg9e"
+    }
 }

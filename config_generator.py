@@ -28,7 +28,7 @@ config['method'] = 'chacha20-ietf-poly1305'
 config['fast_open'] = False
 config['port_password'] = {}
 
-for port in range(40000, 40100):
+for port in range(60000, 60100):
     config['port_password'][port] = password_generator(10)
 
 with open('ss.json', 'w') as f:
