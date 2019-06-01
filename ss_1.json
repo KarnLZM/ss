@@ -1,0 +1,20 @@
+{
+    "server": "0.0.0.0",
+    "local_address": "127.0.0.1",
+    "local_port": 1080,
+    "timeout": 300,
+    "method": "xchacha20-ietf-poly1305",
+    "fast_open": false,
+    "port_password": {
+        "60000": "8#E0F*)gtdc",
+        "60001": "brX!,$*f+UB",
+        "60002": "nE+,!v#O%8H",
+        "60003": "!=3x>C8KGrz",
+        "60004": "%c$^QPl!>f$",
+        "60005": "War&V*y&ij+",
+        "60006": "h>9*h#&H+bD",
+        "60007": "jsqm*(g#gg0",
+        "60008": "%JR_+1zl#di",
+        "60009": "oP^Tq(#mg9e"
+    }
+}
