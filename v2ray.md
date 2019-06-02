@@ -141,6 +141,8 @@ net.ipv4.tcp_mtu_probing = 1
 ```
 sudo sysctl -p
 
+```
+
 ### 启动V2Ray
 ```
 startv2ray
