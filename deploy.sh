@@ -27,10 +27,7 @@ reboot
 
 uname -r
 
-echo 'net.core.default_qdisc=fq' >> /etc/sysctl.conf
-echo 'net.ipv4.tcp_congestion_control=bbr' >> /etc/sysctl.conf
-
-# 添加优化内核参数
+# 添加优化内核以及启用bbr参数
 vim /etc/systcl
 
 sudo sysctl -p
