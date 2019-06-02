@@ -1,3 +1,5 @@
+# CentOS 7 配置Shadowsocks多用户服务器并开启BBR网络优化算法
+
 ### 安装Shadowsocks及其依赖
 ```
 yum install git python-setuptools net-tools -y
