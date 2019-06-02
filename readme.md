@@ -19,7 +19,7 @@ source ~/.bash_profile
 vi ss.json
 ```
 
-输入以下内容
+输入以下内容(密码随便填写)
 ```
 {
     "server": "0.0.0.0",
