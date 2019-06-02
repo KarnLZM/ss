@@ -5,10 +5,11 @@ yum install epel-release -y
 yum install libsodium -y
 echo "alias startss='ssserver -c ~/ss.json -d start'" >> ~/.bash_profile
 echo "alias stopss='ssserver -c ~/ss.json -d stop'" >> ~/.bash_profile
+echo "alias restartpss='ssserver -c ~/ss.json -d restart'" >> ~/.bash_profile
 source ~/.bash_profile
 curl https://raw.githubusercontent.com/KarnLZM/ss/master/ss.json?token=Ami0xusZxm9zs3VlJ7KYLvy2GdOxDPVOks5bOHdfwA%3D%3D --output ~/ss.json
 
-yum update
+yum update -y
 
 uname -r
 # 如果当前内核版本低于 4.10，可使用 ELRepo 源更新：
