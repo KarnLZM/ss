@@ -137,6 +137,10 @@ net.ipv4.tcp_wmem = 4096 65536 67108864
 net.ipv4.tcp_mtu_probing = 1
 ```
 
+### 使参数生效
+```
+source ~
+
 ### 启动V2Ray
 ```
 startv2ray
