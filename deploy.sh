@@ -22,7 +22,7 @@ rpm -qa | grep kernel
 
 sudo egrep ^menuentry /etc/grub2.cfg | cut -f 2 -d \'
 
-sudo grub2-set-default 0  
+sudo grub2-set-default 1
 reboot
 
 uname -r
