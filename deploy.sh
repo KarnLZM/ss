@@ -28,7 +28,7 @@ reboot
 uname -r
 
 # 添加优化内核以及启用bbr参数
-vim /etc/systcl
+vi /etc/sysctl.conf
 
 sudo sysctl -p
 
