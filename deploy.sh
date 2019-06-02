@@ -35,8 +35,3 @@ sudo sysctl -p
 sudo sysctl net.ipv4.tcp_available_congestion_control
 sudo sysctl -n net.ipv4.tcp_congestion_control
 lsmod | grep bbr
-
-
-sudo dd if=/dev/zero of=500mb.zip bs=1024k count=500
-
-# 访问 http://[your-server-IP]/500mb.zip 来测试一下下载速度吧
