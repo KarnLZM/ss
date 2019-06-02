@@ -2,7 +2,7 @@
 ```
 sudo yum -y install wget
 wget https://install.direct/go.sh
-sudo yum install zip unzip
+sudo yum -y install zip unzip 
 sudo bash go.sh
 
 echo "alias restartv2ray='systemctl restart v2ray'" >> ~/.bash_profile
