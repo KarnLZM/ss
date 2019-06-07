@@ -32,7 +32,7 @@ source ~/.bash_profile
 ```
 wget -N --no-check-certificate "https://raw.githubusercontent.com/chiakge/Linux-NetSpeed/master/tcp.sh" && chmod +x tcp.sh && ./tcp.sh
 ```
-先输入2，安装 BBRplus版内核，安装完之后会提示重启系统，重启之后再运行脚本，输入7，使用BBRplus版加速，一键安装，很方便，
+先输入2，安装 BBRplus版内核，安装完之后会提示重启系统，重启之后再运行脚本```./tcp.sh```，输入7，使用BBRplus版加速，一键安装，很方便，
 该脚本可以多次运行，当看到提示：当前状态：已安装 BBRplus加速内核，BBRplus启动成功，表示加速成功。
 
 ### 修改配置
