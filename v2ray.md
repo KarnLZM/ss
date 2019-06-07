@@ -4,7 +4,7 @@
 1. 若是学生，可以使用edu邮箱注册一个github账号，登陆后前往https://education.github.com/pack
 找到DigitalOcean优惠并点击requestyour offer code to get access申请50刀DigitalOcean优惠码。若不是学生，直接到第2步。
 
-2. 通过博主分享的邀请链接：https://m.do.co/c/aca03a5dab85 注册DigitalOcean账号，可以额外获得10刀的优惠码。若执行了第1步，注册成功后登陆DigitalOcean，左边侧边栏点击Billing，拉到页面最下方找到PromoCode，输入申请到的50刀DigitalOcean优惠码，即可收到50刀账户余额。需注意的是，注册时会让你绑定支付方式，若没有信用卡，可以先去Paypal官网https://www.paypal.com/c2/signup/singlePageAccount 注册一个账号并在Paypal里绑定借记卡，先充值5刀，日后在DigitalOcean里用该Paypal账号付款即可。
+2. 通过我分享的邀请链接：https://m.do.co/c/aca03a5dab85 注册DigitalOcean账号，可以额外获得10刀的优惠码。若执行了第1步，注册成功后登陆DigitalOcean，左边侧边栏点击Billing，拉到页面最下方找到PromoCode，输入申请到的50刀DigitalOcean优惠码，即可收到50刀账户余额。需注意的是，注册时会让你绑定支付方式，若没有信用卡，可以先去Paypal官网https://www.paypal.com/c2/signup/singlePageAccount 注册一个账号并在Paypal里绑定借记卡，先充值5刀，日后在DigitalOcean里用该Paypal账号付款即可。
 
 3. 登录DigitalOcean后，点击右上方的Create，再点击Droplets新建一个VPS。系统选CentOS 64。价位选择的最低档5刀一个月（plan默认是40刀/月，需点击←箭头按钮即可看到5刀/月的配置）, 这配置绝对足够用。机房推荐选San Francisco，强烈建议在创建服务器时点击添加SSH Key（New SSH Key），这样无需密码便可登录，更加安全高效，若不知如何生成SSH Key，请看这篇文章：https://www.jianshu.com/p/31cbbbc5f9fa。 接下来点击create即可。稍等几秒，系统便会装好。
 
