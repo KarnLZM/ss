@@ -1,7 +1,8 @@
 # DigitalOcean搭建V2Ray并且配置多用户
 
 ### 领取学生优惠并购买DigitalOcean服务器
-1. 若是学生，可以使用edu邮箱注册一个github账号，登陆后前往https://education.github.com/pack/，找到DigitalOcean优惠并点击requestyour offer code to get access申请50刀DigitalOcean优惠码。若不是学生，直接到第2步。
+1. 若是学生，可以使用edu邮箱注册一个github账号，登陆后前往https://education.github.com/pack
+找到DigitalOcean优惠并点击requestyour offer code to get access申请50刀DigitalOcean优惠码。若不是学生，直接到第2步。
 
 2. 通过博主分享的邀请链接：https://m.do.co/c/aca03a5dab85 注册DigitalOcean账号，可以额外获得10刀的优惠码。若执行了第1步，注册成功后登陆DigitalOcean，左边侧边栏点击Billing，拉到页面最下方找到PromoCode，输入申请到的50刀DigitalOcean优惠码，即可收到50刀账户余额。需注意的是，注册时会让你绑定支付方式，若没有信用卡，可以先去Paypal官网https://www.paypal.com/c2/signup/singlePageAccount 注册一个账号并在Paypal里绑定借记卡，先充值5刀，日后在DigitalOcean里用该Paypal账号付款即可。
 
