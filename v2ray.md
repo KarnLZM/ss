@@ -8,7 +8,7 @@
 
 3. 登录DigitalOcean后，点击右上方的Create，再点击Droplets新建一个VPS。系统选CentOS 64。价位选择的最低档5刀一个月（plan默认是40刀/月，需点击←箭头按钮即可看到5刀/月的配置）, 这配置绝对足够用。机房推荐选San Francisco，强烈建议在创建服务器时点击添加SSH Key（New SSH Key），这样无需密码便可登录，更加安全高效，若不知如何生成SSH Key，请看这篇文章：https://www.jianshu.com/p/31cbbbc5f9fa。 接下来点击create即可。稍等几秒，系统便会装好。
 
-4. 接下来打开终端（windows打开powershell或cmd），用以下命令连接服务器：
+4. 配置好ssh key后打开终端（windows打开powershell或cmd），用以下命令连接服务器：
 ```
 ssh root@你的服务器ip
 ```
