@@ -103,6 +103,9 @@ vi /etc/v2ray/config.json
           "alterId": 64
         }
       ]
+    },
+     "streamSettings": {
+        "network":"ws"
     }
   }],
   "outbounds": [{
@@ -164,7 +167,10 @@ startv2ray
 
 ### 配置客户端
 各平台客户端下载及配置可以参考https://ssr.tools/314
-客户端配置中地址（服务器）填你的服务器ip, id（密码）填上面配置的clients的其中一个id，alterId填64，加密方式建议选auto.
+可以在电脑客户端配置好之后导出配置url，这样其他客户端可以直接导入url配置，不用手动输入。
+
+手动输入：
+客户端配置中地址（服务器）填你的服务器ip, id（密码）填上面配置的clients的其中一个id，alterId填64，传输协议选ws(IOS客户端ShadowRocket中，“混淆”选websocket)，加密方式建议选auto（IOS选chacha20-poly1305）.
 
 ### Note
 V2Ray有时会不稳定，发生断连，但是很安全，不会被墙掉。Shadowsocks虽然稳定，但是会被墙掉=-=
